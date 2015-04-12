@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		623B668B1ADAC1F20066C722 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 623B668A1ADAC1F20066C722 /* main.cpp */; };
+		623B66991ADAE7730066C722 /* Problem32x32.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 623B66971ADAE7730066C722 /* Problem32x32.cpp */; };
+		623B669C1ADAE7860066C722 /* Problem8x8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 623B669A1ADAE7860066C722 /* Problem8x8.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		623B66871ADAC1F20066C722 /* NeuralNetworks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NeuralNetworks; sourceTree = BUILT_PRODUCTS_DIR; };
 		623B668A1ADAC1F20066C722 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		623B66971ADAE7730066C722 /* Problem32x32.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Problem32x32.cpp; sourceTree = "<group>"; };
+		623B66981ADAE7730066C722 /* Problem32x32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem32x32.h; sourceTree = "<group>"; };
+		623B669A1ADAE7860066C722 /* Problem8x8.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Problem8x8.cpp; sourceTree = "<group>"; };
+		623B669B1ADAE7860066C722 /* Problem8x8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem8x8.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				623B668A1ADAC1F20066C722 /* main.cpp */,
+				623B66971ADAE7730066C722 /* Problem32x32.cpp */,
+				623B66981ADAE7730066C722 /* Problem32x32.h */,
+				623B669A1ADAE7860066C722 /* Problem8x8.cpp */,
+				623B669B1ADAE7860066C722 /* Problem8x8.h */,
 			);
 			path = NeuralNetworks;
 			sourceTree = "<group>";
@@ -118,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				623B66991ADAE7730066C722 /* Problem32x32.cpp in Sources */,
 				623B668B1ADAC1F20066C722 /* main.cpp in Sources */,
+				623B669C1ADAE7860066C722 /* Problem8x8.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
