@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		623B668B1ADAC1F20066C722 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 623B668A1ADAC1F20066C722 /* main.cpp */; };
-		623B66991ADAE7730066C722 /* Problem32x32.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 623B66971ADAE7730066C722 /* Problem32x32.cpp */; };
-		623B669C1ADAE7860066C722 /* Problem8x8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 623B669A1ADAE7860066C722 /* Problem8x8.cpp */; };
+		623B66A71ADF57260066C722 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 623B66A61ADF57260066C722 /* main.cpp */; };
+		623B66AA1ADF57C30066C722 /* SmallProblem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 623B66A81ADF57C30066C722 /* SmallProblem.cpp */; };
+		623B66AD1ADF60240066C722 /* EdgesToOneNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 623B66AB1ADF60240066C722 /* EdgesToOneNode.cpp */; };
+		623B66B01ADF60880066C722 /* EdgesToTenNodes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 623B66AE1ADF60880066C722 /* EdgesToTenNodes.cpp */; };
+		623B66B31ADF60A10066C722 /* LargeProblem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 623B66B11ADF60A10066C722 /* LargeProblem.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +28,15 @@
 
 /* Begin PBXFileReference section */
 		623B66871ADAC1F20066C722 /* NeuralNetworks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NeuralNetworks; sourceTree = BUILT_PRODUCTS_DIR; };
-		623B668A1ADAC1F20066C722 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		623B66971ADAE7730066C722 /* Problem32x32.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Problem32x32.cpp; sourceTree = "<group>"; };
-		623B66981ADAE7730066C722 /* Problem32x32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem32x32.h; sourceTree = "<group>"; };
-		623B669A1ADAE7860066C722 /* Problem8x8.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Problem8x8.cpp; sourceTree = "<group>"; };
-		623B669B1ADAE7860066C722 /* Problem8x8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem8x8.h; sourceTree = "<group>"; };
+		623B66A61ADF57260066C722 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../../../.Trash/main.cpp; sourceTree = "<group>"; };
+		623B66A81ADF57C30066C722 /* SmallProblem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SmallProblem.cpp; sourceTree = "<group>"; };
+		623B66A91ADF57C30066C722 /* SmallProblem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallProblem.h; sourceTree = "<group>"; };
+		623B66AB1ADF60240066C722 /* EdgesToOneNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EdgesToOneNode.cpp; sourceTree = "<group>"; };
+		623B66AC1ADF60240066C722 /* EdgesToOneNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdgesToOneNode.h; sourceTree = "<group>"; };
+		623B66AE1ADF60880066C722 /* EdgesToTenNodes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EdgesToTenNodes.cpp; sourceTree = "<group>"; };
+		623B66AF1ADF60880066C722 /* EdgesToTenNodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdgesToTenNodes.h; sourceTree = "<group>"; };
+		623B66B11ADF60A10066C722 /* LargeProblem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LargeProblem.cpp; sourceTree = "<group>"; };
+		623B66B21ADF60A10066C722 /* LargeProblem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LargeProblem.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,11 +69,15 @@
 		623B66891ADAC1F20066C722 /* NeuralNetworks */ = {
 			isa = PBXGroup;
 			children = (
-				623B668A1ADAC1F20066C722 /* main.cpp */,
-				623B66971ADAE7730066C722 /* Problem32x32.cpp */,
-				623B66981ADAE7730066C722 /* Problem32x32.h */,
-				623B669A1ADAE7860066C722 /* Problem8x8.cpp */,
-				623B669B1ADAE7860066C722 /* Problem8x8.h */,
+				623B66A61ADF57260066C722 /* main.cpp */,
+				623B66AB1ADF60240066C722 /* EdgesToOneNode.cpp */,
+				623B66AC1ADF60240066C722 /* EdgesToOneNode.h */,
+				623B66AE1ADF60880066C722 /* EdgesToTenNodes.cpp */,
+				623B66AF1ADF60880066C722 /* EdgesToTenNodes.h */,
+				623B66B11ADF60A10066C722 /* LargeProblem.cpp */,
+				623B66B21ADF60A10066C722 /* LargeProblem.h */,
+				623B66A81ADF57C30066C722 /* SmallProblem.cpp */,
+				623B66A91ADF57C30066C722 /* SmallProblem.h */,
 			);
 			path = NeuralNetworks;
 			sourceTree = "<group>";
@@ -128,9 +138,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				623B66991ADAE7730066C722 /* Problem32x32.cpp in Sources */,
-				623B668B1ADAC1F20066C722 /* main.cpp in Sources */,
-				623B669C1ADAE7860066C722 /* Problem8x8.cpp in Sources */,
+				623B66A71ADF57260066C722 /* main.cpp in Sources */,
+				623B66AD1ADF60240066C722 /* EdgesToOneNode.cpp in Sources */,
+				623B66AA1ADF57C30066C722 /* SmallProblem.cpp in Sources */,
+				623B66B31ADF60A10066C722 /* LargeProblem.cpp in Sources */,
+				623B66B01ADF60880066C722 /* EdgesToTenNodes.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
